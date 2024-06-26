@@ -1,7 +1,7 @@
 joblib
 nltk
 pandas
-Sastraw
+Sastrawi
 Sastrawi
 scikit_learn
 streamlit
