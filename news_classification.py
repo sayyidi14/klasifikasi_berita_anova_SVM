@@ -30,7 +30,7 @@ def casefoldingText(berita):
         return berita
 
 
-nltk.download('punkt')
+# nltk.download('punkt')
 
 def word_tokenize_wrapper(text):
     return word_tokenize(text)
