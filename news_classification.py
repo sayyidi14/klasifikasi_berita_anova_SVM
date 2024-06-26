@@ -6,6 +6,7 @@ import nltk
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 import nltk
+nltk.download('punkt')
 import swifter
 import joblib
 import pandas as pd
@@ -30,7 +31,7 @@ def casefoldingText(berita):
         return berita
 
 
-nltk.download('punkt')
+
 
 def word_tokenize_wrapper(text):
     return word_tokenize(text)
