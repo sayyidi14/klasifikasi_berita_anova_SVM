@@ -46,10 +46,9 @@ from nltk.corpus import stopwords
 daftar_stopword_nltk = stopwords.words('indonesian')
 
 def stopwordText(words):
- return [word for word in words if word not in daftar_stopword_nltk]
+  return [word for word in words if word not in daftar_stopword_nltk]
 
-
- from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
 
 factory = StemmerFactory()
