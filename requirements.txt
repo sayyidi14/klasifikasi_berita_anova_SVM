@@ -1,6 +1,6 @@
 joblib==1.4.2
 nltk==3.8.1
-pandas==1.0.0
+pandas
 Sastrawi==1.0.1
 Sastrawi==1.0.1
 scikit_learn
