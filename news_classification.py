@@ -34,12 +34,7 @@ def casefoldingText(berita):
 
 def word_tokenize_wrapper(text):
     return word_tokenize(text)
-try:
-    _create_unverified_https_context = ssl._create_unverified_context
-except AttributeError:
-    pass
-else:
-    ssl._create_default_https_context = _create_unverified_https_context
+  
 nltk.download('stopwords')
 
 
