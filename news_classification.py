@@ -35,6 +35,7 @@ def casefoldingText(berita):
 def word_tokenize_wrapper(text):
     return word_tokenize(text)
   
+nltk.download('punkt')
 nltk.download('stopwords')
 
 
